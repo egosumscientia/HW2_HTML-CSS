@@ -37,14 +37,13 @@ ul li {
   position: absolute;
   width: 145px;
   height: 31px;
-  left: 250px;
+  left: 170px;
   top: 24px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -94,7 +93,7 @@ nav ul li:nth-child(3) a {
   position: absolute;
   width: 135px;
   height: 16px;
-  left: 1350px;
+  left: 1450px;
   top: 32px;
   color: #757575;
 }
@@ -104,24 +103,20 @@ nav ul li:nth-child(3) a {
   position: absolute;
   width: 118px;
   height: 16px;
-  left: 1500px;
+  left: 1600px;
   top: 32px;
   color: #757575;
 }
 
 button {
   /* Todo */
-  /* position: absolute; */
   width: 120px;
   height: 30px;
-  /* left: calc(50% - 38px / 2 - 269px);
-  top: calc(50% - 26px / 2 - 735px); */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -132,7 +127,7 @@ button {
 }
 
 .buttons-container {
-  margin-top: 150px;
+  margin-top: 250px;
   margin-bottom: 50px;
   list-style-type: none;
   display: flex;
@@ -158,7 +153,6 @@ button {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: #212121;
 }
@@ -169,46 +163,36 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 footer {
   width: 100%;
-  height: 170px;
+  height: 200px;
   background: #2f303a;
   padding-top: 60px;
-  padding-left: 300px;
+  padding-left: 150px;
   margin-top: 80px;
 }
 
 .footer-link {
-  /* width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 1688px; */
+  left: 100px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 footer ul li {
-  /* width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 1733px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
