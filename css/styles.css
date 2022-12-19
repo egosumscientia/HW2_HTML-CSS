@@ -32,17 +32,24 @@ p a {
   height: 31px;
   left: 215px;
   top: 24px;
-
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: #2196f3;
+}
+
+nav ul li {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 nav ul li:first-child a {
@@ -52,14 +59,6 @@ nav ul li:first-child a {
   height: 16px;
   left: 453px;
   top: 32px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: #212121;
 }
 
@@ -70,14 +69,6 @@ nav ul li:nth-child(2) a {
   height: 16px;
   left: 552px;
   top: 32px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: #2196f3;
 }
 
@@ -89,13 +80,6 @@ nav ul li:nth-child(3) a {
   left: 679px;
   top: 32px;
 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: #212121;
 }
 
@@ -106,14 +90,6 @@ nav ul li:nth-child(3) a {
   height: 16px;
   left: 1078px;
   top: 32px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: #757575;
 }
 
@@ -124,120 +100,29 @@ nav ul li:nth-child(3) a {
   height: 16px;
   left: 1263px;
   top: 32px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: #757575;
 }
 
-.button-current {
+button {
   /* Todo */
   /* position: absolute; */
   width: 120px;
   height: 30px;
-  left: calc(50% - 38px / 2 - 269px);
-  top: calc(50% - 26px / 2 - 735px);
-
+  /* left: calc(50% - 38px / 2 - 269px);
+  top: calc(50% - 26px / 2 - 735px); */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
+  color: #212121;
+}
 
+.button-current {
   color: #ffffff;
-}
-
-.section-portfolio ul li:nth-child(2) button {
-  /* Sitios-web */
-  /* position: absolute; */
-  width: 120px;
-  height: 30px;
-  /* left: calc(50% - 80px / 2 - 160px);
-  top: calc(50% - 26px / 2 - 735px); */
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.section-portfolio ul li:nth-child(3) button {
-  /* Aplicaciones */
-  /* position: absolute; */
-  width: 120px;
-  height: 30px;
-  /* left: calc(50% - 98px / 2 - 16px);
-  top: calc(50% - 26px / 2 - 735px); */
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.section-portfolio ul li:nth-child(4) button {
-  /* Diseño */
-  /*  position: absolute; */
-  width: 120px;
-  height: 30px;
-  /* left: calc(50% - 52px / 2 + 116px);
-  top: calc(50% - 26px / 2 - 735px); */
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.section-portfolio ul li:nth-child(5) button {
-  /* Marketing */
-  /* position: absolute; */
-  width: 120px;
-  height: 30px;
-  /* left: calc(50% - 77px / 2 + 241.5px);
-  top: calc(50% - 26px / 2 - 735px); */
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
 }
 
 .buttons-container {
@@ -294,13 +179,10 @@ nav ul li:nth-child(3) a {
 }
 
 footer {
-  position: absolute;
   min-width: 100%;
-  height: 120px;
-  left: 0px;
-  top: 1628px;
+  height: 170px;
   background: #2f303a;
-  padding: 10px;
+  padding-top: 60px;
   padding-left: 150px;
 }
 
@@ -338,12 +220,10 @@ footer ul li {
   color: rgba(255, 255, 255, 0.6);
 }
 
+footer ul li a {
+  text-decoration: none;
+}
+
 footer ul li:first-child > a {
   color: #ffffff;
-}
-
-footer ul li:nth-child(2) a {
-}
-
-footer ul li:nth-child(3) a {
 }
