@@ -1,7 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
+}
+
+.myHeader {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p a {
+  /* Estudio Web */
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+nav ul li:first-child a {
+  /* Estudio */
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+nav ul li:nth-child(2) a {
+  /* Portafolio */
+  position: absolute;
+  width: 65px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+nav ul li:nth-child(3) a {
+  /* Contacto */
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.info {
+  /* info@devstudio.com */
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.phone {
+  /* +52 55 5529 6000 */
+  position: absolute;
+  width: 118px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.button-current {
+  /* Todo */
+  /* position: absolute; */
+  width: 120px;
+  height: 30px;
+  left: calc(50% - 38px / 2 - 269px);
+  top: calc(50% - 26px / 2 - 735px);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.section-portfolio ul li:nth-child(2) button {
+  /* Sitios-web */
+  /* position: absolute; */
+  width: 120px;
+  height: 30px;
+  left: calc(50% - 80px / 2 - 160px);
+  top: calc(50% - 26px / 2 - 735px);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.section-portfolio ul li:nth-child(3) button {
+  /* Aplicaciones */
+  /* position: absolute; */
+  width: 120px;
+  height: 30px;
+  left: calc(50% - 98px / 2 - 16px);
+  top: calc(50% - 26px / 2 - 735px);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.section-portfolio ul li:nth-child(4) button {
+  /* Diseño */
+  /*  position: absolute; */
+  width: 120px;
+  height: 30px;
+  left: calc(50% - 52px / 2 + 116px);
+  top: calc(50% - 26px / 2 - 735px);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.section-portfolio ul li:nth-child(5) button {
+  /* Marketing */
+  /* position: absolute; */
+  width: 120px;
+  height: 30px;
+  left: calc(50% - 77px / 2 + 241.5px);
+  top: calc(50% - 26px / 2 - 735px);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.buttons-container {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-container li {
+  padding: 5px;
 }
