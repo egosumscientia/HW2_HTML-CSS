@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -25,7 +30,7 @@ ul li {
   list-style-type: none;
 }
 
-p a {
+.nav-link {
   /* Estudio Web */
   position: absolute;
   width: 145px;
@@ -184,6 +189,7 @@ footer {
   background: #2f303a;
   padding-top: 60px;
   padding-left: 150px;
+  margin-top: 80px;
 }
 
 .footer-link {
@@ -191,16 +197,13 @@ footer {
   height: 31px;
   left: 215px;
   top: 1688px;
-
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
 
@@ -226,4 +229,8 @@ footer ul li a {
 
 footer ul li:first-child > a {
   color: #ffffff;
+}
+
+.section-portfolio {
+  width: 100%;
 }
